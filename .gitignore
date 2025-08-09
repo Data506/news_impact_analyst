@@ -85,3 +85,7 @@ docker-compose.override.yml
 # ========================
 *.bak
 *.swp
+/data
+/models
+/metrics
+/reports
