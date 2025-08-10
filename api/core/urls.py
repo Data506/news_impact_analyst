@@ -20,9 +20,9 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     
-    path('api/ingest/', include('apps.ingestion.urls')),
-    path('api/predict/', include('apps.nlp_api.urls')),
-    path('api/forecast/', include('apps.ts_api.urls')),
-    path('api/report/', include('apps.reports.urls')),
+    path('news-analyst/ingest/', include('apps.ingestion.urls')),
+    path('news-analyst/predict/', include('apps.nlp_api.urls')),
+    path('news-analyst/forecast/', include('apps.ts_api.urls')),
+    path('news-analyst/analyst/', include('apps.analyst.urls')),
 ]
 

@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'apps.ingestion',
     'apps.nlp_api',
     'apps.ts_api',
-    'apps.reports',
+    'apps.analyst',
 ]
 
 MIDDLEWARE = [
