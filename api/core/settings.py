@@ -33,10 +33,19 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
-    'django.contrib.contenttypes',
+    
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # DRF
+    'rest_framework',
+
+    # Apps del proyecto
+    'apps.ingestion',
+    'apps.nlp_api',
+    'apps.ts_api',
+    'apps.reports',
 ]
 
 MIDDLEWARE = [
