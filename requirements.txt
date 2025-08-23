@@ -3,3 +3,17 @@ djangorestframework==3.15.*
 python-dotenv==1.0.*
 gunicorn==21.*
 psycopg2-binary==2.9.*
+yfinance
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+nltk
+textblob
+vaderSentiment
+prophet
+mlflow
+dvc
+feedparser
+requests
